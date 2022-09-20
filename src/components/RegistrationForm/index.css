@@ -1,0 +1,68 @@
+.mainRegistrationFormContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  margin-top: 5vh;
+}
+.mainHeading {
+  color: orange;
+}
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30vw;
+  padding: 5vw;
+  box-shadow: 0px 0px 15px 0px grey;
+  border-radius: 15px;
+  height: 45vh;
+}
+p {
+  margin-top: 0px;
+  color: red;
+}
+
+button {
+  align-self: center;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #ce7c02;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  padding: 8px;
+  padding-left: 6px;
+  border-radius: 5px;
+}
+
+.error {
+  border: 1px solid #ff8181;
+  background-color: #ffc8bf;
+}
+
+.successImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.successContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30vw;
+  padding: 5vw;
+  box-shadow: 0px 0px 15px 0px grey;
+  border-radius: 15px;
+  height: 45vh;
+  text-align: center;
+}
+
+.successPara {
+  color: black;
+  font-weight: bold;
+}
