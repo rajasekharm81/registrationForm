@@ -5,7 +5,7 @@ class RegistrationForm extends Component {
   state = {
     isFirstnameEmpty: false,
     isLastNameEmpty: false,
-    registrationForm: false,
+    registrationForm: true,
     firstName: '',
     lastName: '',
   }
@@ -89,7 +89,7 @@ class RegistrationForm extends Component {
       </div>
       <p className="successPara">Submitted Successfully</p>
       <button onClick={this.anotherForm} type="submit">
-        Submit Another Form
+        Submit Another Response
       </button>
     </div>
   )
